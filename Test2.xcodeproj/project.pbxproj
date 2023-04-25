@@ -13,6 +13,9 @@
 		D9A43403297FA1CE0017C07F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D9A43401297FA1CE0017C07F /* Main.storyboard */; };
 		D9A43405297FA1D00017C07F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D9A43404297FA1D00017C07F /* Assets.xcassets */; };
 		D9A43408297FA1D00017C07F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D9A43406297FA1D00017C07F /* LaunchScreen.storyboard */; };
+		D9D6625B29DC4A3B009BC3B6 /* TagBubbleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9D6625A29DC4A3B009BC3B6 /* TagBubbleView.swift */; };
+		D9D6625E29DD44C1009BC3B6 /* TagBubbleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9D6625D29DD44C1009BC3B6 /* TagBubbleViewController.swift */; };
+		D9EAD57C29B08A6000486E17 /* HeartShape.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9EAD57B29B08A6000486E17 /* HeartShape.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +27,9 @@
 		D9A43404297FA1D00017C07F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D9A43407297FA1D00017C07F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D9A43409297FA1D00017C07F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D9D6625A29DC4A3B009BC3B6 /* TagBubbleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TagBubbleView.swift; sourceTree = "<group>"; };
+		D9D6625D29DD44C1009BC3B6 /* TagBubbleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TagBubbleViewController.swift; sourceTree = "<group>"; };
+		D9EAD57B29B08A6000486E17 /* HeartShape.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeartShape.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +62,7 @@
 		D9A433FA297FA1CE0017C07F /* Test2 */ = {
 			isa = PBXGroup;
 			children = (
+				D9D6625C29DD44A4009BC3B6 /* TagBubble */,
 				D9A4340F297FA2820017C07F /* Personal */,
 				D9A433FB297FA1CE0017C07F /* AppDelegate.swift */,
 				D9A433FD297FA1CE0017C07F /* SceneDelegate.swift */,
@@ -71,8 +78,18 @@
 		D9A4340F297FA2820017C07F /* Personal */ = {
 			isa = PBXGroup;
 			children = (
+				D9EAD57B29B08A6000486E17 /* HeartShape.swift */,
 			);
 			path = Personal;
+			sourceTree = "<group>";
+		};
+		D9D6625C29DD44A4009BC3B6 /* TagBubble */ = {
+			isa = PBXGroup;
+			children = (
+				D9D6625A29DC4A3B009BC3B6 /* TagBubbleView.swift */,
+				D9D6625D29DD44C1009BC3B6 /* TagBubbleViewController.swift */,
+			);
+			path = TagBubble;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -146,9 +163,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D9EAD57C29B08A6000486E17 /* HeartShape.swift in Sources */,
+				D9D6625E29DD44C1009BC3B6 /* TagBubbleViewController.swift in Sources */,
 				D9A43400297FA1CE0017C07F /* ViewController.swift in Sources */,
 				D9A433FC297FA1CE0017C07F /* AppDelegate.swift in Sources */,
 				D9A433FE297FA1CE0017C07F /* SceneDelegate.swift in Sources */,
+				D9D6625B29DC4A3B009BC3B6 /* TagBubbleView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
